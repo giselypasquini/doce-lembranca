@@ -22,7 +22,8 @@
 
 ## Compras, lotes e validade
 
-- Uma compra pode ser lançada por embalagem, com conversão para a unidade real de estoque.
-- Exemplo: 10 caixas com 27 unidades acrescentam 270 unidades ao estoque; 1 unidade acrescenta 1 unidade.
+- A compra deve seguir um lançamento simples, como em um depósito ou mercado: item, categoria, unidade, quantidade comprada, valor total pago e data.
+- A quantidade deve ser informada diretamente na unidade escolhida, sem conversão automática de caixas ou embalagens.
+- A categoria organiza Ingredientes, Confeitos, Embalagens, Materiais de consumo e Utensílios.
 - Lote e validade podem ser informados quando existirem, mas são opcionais e não podem bloquear o lançamento da compra.
 - Lote e validade devem poder ser desativados em Configurações; quando desativados, os campos ficam ocultos no lançamento de compras.
