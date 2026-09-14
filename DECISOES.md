@@ -15,3 +15,9 @@
 ## Dados ainda pendentes
 
 - A lista oficial de doces, preços, custos, rendimentos e validades ainda será cadastrada depois dos testes com dados fictícios.
+
+## Compras, lotes e validade
+
+- Uma compra pode ser lançada por embalagem, com conversão para a unidade real de estoque.
+- Exemplo: 10 caixas com 27 unidades acrescentam 270 unidades ao estoque; 1 unidade acrescenta 1 unidade.
+- Lote e validade podem ser informados quando existirem, mas são opcionais e não podem bloquear o lançamento da compra.
