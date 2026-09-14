@@ -22,8 +22,9 @@
 
 ## Compras, lotes e validade
 
-- A compra deve seguir um lançamento simples, como em um depósito ou mercado: item, categoria, unidade, quantidade comprada, valor total pago e data.
-- A quantidade deve ser informada diretamente na unidade escolhida, sem conversão automática de caixas ou embalagens.
+- A compra deve seguir um lançamento simples, como em um depósito ou mercado: item, categoria, unidade-base, unidade da compra, quantidade comprada, valor total pago e data.
+- A quantidade é informada na unidade em que foi comprada e convertida para a unidade-base do estoque quando necessário.
+- Exemplo: leite condensado com estoque em g: 5 kg acrescentam 5.000 g; 395 g acrescentam 395 g. Utensílios usam unidade.
 - A categoria organiza Ingredientes, Confeitos, Embalagens, Materiais de consumo e Utensílios.
 - Lote e validade podem ser informados quando existirem, mas são opcionais e não podem bloquear o lançamento da compra.
 - Lote e validade devem poder ser desativados em Configurações; quando desativados, os campos ficam ocultos no lançamento de compras.
