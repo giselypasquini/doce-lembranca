@@ -25,6 +25,6 @@
 - A compra deve seguir um lançamento simples, como em um depósito ou mercado: item, categoria, unidade-base, unidade da compra, quantidade comprada, valor total pago e data.
 - A quantidade é informada na unidade em que foi comprada e convertida para a unidade-base do estoque quando necessário.
 - Exemplo: leite condensado com estoque em g: 5 kg acrescentam 5.000 g; 395 g acrescentam 395 g. Utensílios usam unidade.
-- A categoria deve permitir selecionar Ingredientes, Confeitos, Embalagens, Materiais de consumo, Utensílios ou Equipamentos.
+- As compras têm somente três categorias: Material de consumo, Utensílio e Equipamento. Ingredientes, confeitos e embalagens entram como Material de consumo.
 - Lote e validade podem ser informados quando existirem, mas são opcionais e não podem bloquear o lançamento da compra.
 - Lote e validade devem poder ser desativados em Configurações; quando desativados, os campos ficam ocultos no lançamento de compras.
