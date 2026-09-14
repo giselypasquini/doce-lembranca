@@ -5,6 +5,8 @@
 - A tela **Produtos e preços** deve exibir todos os doces cadastrados para venda.
 - Cada doce deve permitir alteração de preço e ativação/desativação para encomendas.
 - Produtos de venda são separados das receitas internas.
+- Produtos e preços devem aparecer em uma lista geral, sem caixas de cadastro; cada item terá a opção Editar.
+- Cada doce terá uma foto única compartilhada entre receita, pedido e Produtos e preços.
 
 ## Alteração de preço
 
