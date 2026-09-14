@@ -7,6 +7,8 @@
 - Produtos de venda são separados das receitas internas.
 - Produtos e preços devem aparecer em uma lista geral, sem caixas de cadastro; cada item terá a opção Editar.
 - Cada doce terá uma foto única compartilhada entre receita, pedido e Produtos e preços.
+- Toda receita de doce vendável deve gerar automaticamente um item correspondente na lista Produtos e preços.
+- Receitas classificadas como Preparos internos são exceção e não entram na lista de produtos de venda.
 
 ## Alteração de preço
 
